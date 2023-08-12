@@ -8,7 +8,7 @@ function Header(props) {
       <header className="col-12">
         <nav className="navbar navbar-expand-md fixed-top">
           <div id="home" className="container-fluid">
-            <a className="navbar-brand fw-bolder ms-5" href="#home">
+            <a className="navbar-brand fw-bolder ms-5 fs-3" href="#home">
               Blessie Reside
             </a>
 
@@ -22,9 +22,9 @@ function Header(props) {
               aria-label="Toggle navigation">
               <i className="fa-solid fa-bars"></i>
             </button>
-            {/* d-flex flex-row-reverse bd-highlight */}
+
             <nav
-              className="collapse navbar-collapse d-flex flex-row-reverse bd-highlight"
+              className="collapse navbar-collapse "
               id="navbarSupportedContent">
               <ul className="navbar-nav me-auto">
                 <li className="nav-item ">
@@ -56,7 +56,7 @@ function Header(props) {
               <aside>
                 <ul className="d-inline-flex flex-column justify-content-xl-between">
                   <li>
-                    <a href="https://www.frontendmentor.io">
+                    <a href="https://www.frontendmentor.io/profile/BlessieReside">
                       <Icon
                         icon="simple-icons:frontendmentor"
                         color="white"
@@ -65,7 +65,7 @@ function Header(props) {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.facebook.com">
+                    <a href="https://www.facebook.com/blessiereside">
                       <Icon
                         icon="simple-icons:facebook"
                         color="white"
@@ -83,7 +83,7 @@ function Header(props) {
                     </a>
                   </li>
                   <li>
-                    <a href="https://github.com">
+                    <a href="https://github.com/BlessieReside">
                       <Icon
                         icon="simple-icons:github"
                         color="white"
@@ -92,7 +92,7 @@ function Header(props) {
                     </a>
                   </li>
                   <li>
-                    <a href="https://vercel.com">
+                    <a href="https://vercel.com/BlessieReside">
                       <Icon
                         icon="simple-icons:vercel"
                         color="white"
@@ -104,7 +104,7 @@ function Header(props) {
               </aside>
 
               <div>
-                <article>
+                <article className="d-block">
                   <h2 className="text-white fw-bolder text-center mt-5">
                     Hi, I'm BLESSIE RESIDE
                   </h2>
@@ -130,8 +130,8 @@ function Header(props) {
               </div>
             </section>
 
-            <aside className="right-hero col-xxl-5 col-xl-5 col-lg-5  d-lg-block d-none">
-              <img src={require("../../assets/Blessie.png")} alt="Dinosaur" />
+            <aside className="right-side col-xxl-5 col-xl-5 col-lg-5  d-lg-block d-none">
+              <img src={require("../../assets/Blessie.png")} alt="Picture" />
             </aside>
           </div>
         </section>
